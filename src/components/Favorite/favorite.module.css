@@ -1,0 +1,42 @@
+.favoriteList{
+    row-gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+@media screen and (max-width: 576px) {
+    .list_card {
+        justify-content: center;
+        margin: 20px 0;
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .list_card {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .list_card {
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .list_card {
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (min-width: 1201px) {
+    .list_card {
+        justify-content: space-evenly;
+    }
+}

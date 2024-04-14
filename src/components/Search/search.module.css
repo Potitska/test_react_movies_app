@@ -1,0 +1,40 @@
+.search {
+    position: relative;
+}
+
+.search > input {
+    border: 2px solid #f3f3f3;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 34px;
+    font-size: 16px;
+}
+
+.search > input :focus {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+    opacity: 0.3;
+    position: absolute;
+    left: 6px;
+    top: 6px
+}
+
+.iconClear {
+    width: 22px;
+    height: 22px;
+    opacity: 0.3;
+    position: absolute;
+    right: 13px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.iconClear:hover {
+    opacity: 0.8;
+}

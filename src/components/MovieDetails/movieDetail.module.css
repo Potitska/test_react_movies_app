@@ -1,0 +1,51 @@
+.card {
+    height: auto;
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 40px; /* Загальний відступ для всіх розмірів екрану */
+}
+
+/* Для екранів "small" */
+@media screen and (max-width: 576px) {
+    .card {
+        font-size: medium;
+        padding: 20px;
+    }
+}
+
+/* Для екранів "medium" */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .card {
+        font-size: large;
+        padding: 30px;
+    }
+}
+
+/* Для екранів "large" */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .card {
+        font-size: x-large;
+        padding: 40px;
+    }
+}
+
+/* Для екранів "x-large" */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .card {
+        font-size: xx-large;
+        padding: 50px;
+    }
+}
+
+/* Для екранів "xx-large" */
+@media screen and (min-width: 1201px) {
+    .card {
+        font-size: 2rem;
+        padding: 60px;
+    }
+}
